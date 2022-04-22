@@ -20,6 +20,8 @@ public class EnCokTekrarEden {
             if (!harfler.contains(yeniStr[i])) {
                 harfler.add(yeniStr[i]);
             }
+
+
         }
         int count;
         int max = 0;
@@ -35,6 +37,8 @@ public class EnCokTekrarEden {
                 enCok = harfler.get(i);
             }
         }
+
+
         System.out.println("En çok geçen harf:  " + enCok + " = " + max);
 
 
