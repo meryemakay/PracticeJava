@@ -5,8 +5,12 @@ import java.util.List;
 
 public class EnCokTekrarEden {
     public static void main(String[] args) {
-        /*  Write a Java program to get a String from user as input and find the maximumCounts occurring character in that string.
-         (Ignore case sensitivity)
+        /*  Write a Java program to get a String from user as input
+        and find the maximumCounts occurring character in that string.
+
+
+        (Ignore case sensitivity)
+
          Kullanicidan aldiginiz bir string icinde en cok tekrar eden karakteri yazdiran code create ediniz.
        input : Learning java is easy
        output: maximumCounts occurring character is : a
@@ -42,7 +46,13 @@ public class EnCokTekrarEden {
         System.out.println("En çok geçen harf:  " + enCok + " = " + max);
 
 
+       /* Write a code that returns the duplicate chars in a String array.(interview Question)
 
+        Input :
+
+        String str=“Javaisalsoeasy”
+
+        Output: [a, s]*/
 
 
     }
